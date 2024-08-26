@@ -1,0 +1,112 @@
+<!--Task 1: Define the Page Structure Use semantic elements to define the basic structure of your web page, including a header, 
+navigation, main content, and a footer.
+
+Expected Outcome: A web page with a clear, logical structure, marked up with semantic elements that delineate the header, navigation, 
+main content, and footer.
+
+Task 2: Organize Content Using Articles and Sections Within the <main> element, use <article> and <section> tags to organize the content
+related to your topic. Use headings (<h2> to <h6>) to title each section or article appropriately.
+
+Expected Outcome: A semantically structured main content area, with articles and sections that logically separate different topics or 
+ideas related to the main subject.
+
+Task 3: Enhance Accessibility with Semantic Markup Incorporate additional semantic elements such as <aside> for side content, <figure> 
+and <figcaption> for images, and <address> for contact information in the footer, to further enhance the page's accessibility.
+
+Expected Outcome: A fully accessible web page that uses semantic HTML5 elements to enhance content readability and navigability, 
+ensuring a better user experience and improved SEO.-->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Changing oil</title>
+    <meta charset="UTF-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple brakedown for how to change your vehicles oil yourself.">
+    <meta name="keyword" content="HTML, OilChange, WebDevelopment, Car, Maintenance">
+    <meta name="author" content="Web Development Mentor">
+</head>
+<body>
+    <header>
+        <h1>OIL CHANGE TUTORIAL</h1>
+        <img src="picsNvids/oil-change-hero-1920x1080tcm-3154-1323245-3_Small-Landscape.webp" alt="Oil change technician">
+        <P>You want to learn how to <strong>change your own oil</strong>? You've come to the right place!</P>
+    </header>
+
+    <nav>
+       <h2><em>IMPORTANT LINKS</em></h2>
+       <a href="https://www.youtube.com/watch?v=TnS53T3gcPg">Link to Oil change Vid</a>
+       <br>
+       <a href="https://store.advancedenginetech.com/blogs/blog/choose-the-best-engine-oil-for-car">Link to Picking Oil Article</a> 
+    </nav>
+
+    <main>
+        <h2>OIL CHANGE VIDEO</h2>
+        <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/TnS53T3gcPg" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
+        <P>Here is a <strong>VIDEO</strong> of an <em>oil change</em> being performed.</P>
+
+        <article>
+            <h3>Breakdown of an <strong>OIL CHANGE</strong></h3>
+            <hr>
+            <section>
+                <h4><b>DRAINING THE OLD OIL</b></h4>
+                <figure>
+                    <img src="picsNvids/140898_900.jpg" alt="oil pan and drain plug">
+                    <figcaption>An oil pan with the oil drain plug installed</figcaption>
+                </figure>
+                <p>Underneath the vehicle, locate the oil drain plug on the oil pan. Lefty loosey will remove the plug. Have a catch can underneath, as the old oil will flow out. Once done, replace the drain plug.</p>
+            </section>
+            <hr>
+            <section>
+                <H4><B>REMOVE THE OLD OIL FILTER</B></H4>
+                <figure>
+                    <img src="picsNvids/FRAM_Force_Installed.jpg" alt="oil filter">
+                    <figcaption>A &copy;FRAM brand oil filter mounted underneath block of the engine</figcaption>
+                </figure>
+                <P>Locate the oil filter (underneath or on top of engine depending on make/model). Use your oil filter wrench to remove the filer. <em><strong>CAUTION</strong></em>, oil will spill from filter. Replace with a new filter...remember <i>RIGHTY TIGHTY</i></P>
+            </section>
+            <hr>
+            <section>
+                <h4><b>FILL WITH NEW OIL</b></h4>
+                <figure>
+                    <img src="picsNvids/fillport.webp" alt="oil fill port">
+                    <figcaption>An oil fill port with the cap removed</figcaption>
+                </figure>
+                <p>On top of the engine, locate the <em>OIL FILL PORT</em> and add in your oil of choice based on your manufacturers recommendations.</p>
+            </section>
+            <hr>
+            <section>
+                <h4><b>FINISH UP</b></h4>
+                <figure>
+                    <img src="picsNvids/dipstick.jpg" alt="dip stick">
+                    <figcaption>A dip stick reading diagram</figcaption>
+                </figure>
+                <P>Close the oil fill port, check your dipstick to ensure proper oil level, run your vehicle and inspect for leaks.</P>
+            </section>
+        </article>
+    </main>
+    <aside>
+        <p>Choosing the proper engine oil may seem complicated. To learn how to decide what oil to use check out <a href="https://store.advancedenginetech.com/blogs/blog/choose-the-best-engine-oil-for-car">Engine Oil 101</a></p>
+    </aside>
+
+    <hr>
+    <footer>
+        <p>&copy;2024 Chris Pericas All Rights Reserved</p>
+        <address>
+            Email us at: <br>
+            <a href="mailto:pericasc@yahoo.com">PericasC@yahoo.com</a><br>
+            Phone: 123-456-7890
+        </address>
+    </footer>
+
+
+
+
+</body>
+</html>

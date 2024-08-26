@@ -1,0 +1,55 @@
+<!--
+Task 1: Embed an Educational Image Create an HTML page and embed an image that illustrates the concept you're teaching. Add a caption 
+using the <figcaption> element to describe the image.
+
+Task 2: Include an Instructional Audio Clip Embed an audio clip that provides a brief explanation or reading of the concept. Ensure the
+audio is accessible with playback controls.
+
+Task 3: Integrate an Informative Video Incorporate a video that visually explains the concept. The video could be a lecture, an 
+animation, or a documentary clip related to the topic.
+
+Expected Outcome: A web page featuring a video that provides a comprehensive explanation or visualization of the concept, enhancing the
+learner's understanding through visual and auditory stimulation.
+-->
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>How to change your oil</title>
+    <meta charset="UTF-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple brakedown for how to change your vehicles oil yourself.">
+    <meta name="keyword" content="HTML, OilChange, WebDevelopment, Car, Maintenance">
+    <meta name="author" content="Web Development Mentor">
+</head>
+<body>
+   <h1>Welcome to our Oil Change Tutorial!</h1> 
+   <p>A simple rundown for how to change the oil of your vehicle yourself.</p>
+
+   <figure>
+        <img src="picsNvids/oil-change-hero-1920x1080tcm-3154-1323245-3_Small-Landscape.webp" alt="pic of oil change tech">
+        <figcaption>An oil change technician performing an oil change.</figcaption>
+   </figure>
+
+   <h2>OIL CHANGE AUDIO</h2>
+   <audio controls>
+        <source src="picsNvids/How to Change the Oil in Your Car (the Right Way).mp3" type="audio/mpeg">
+        Your browser does not support the audio element
+   </audio>
+   <p>Here is an <strong>MP3 File</strong> describing how to perform an <em>oil change</em>.</p>
+    <hr>
+
+    <h3>OIL CHANGE VIDEO</h3>
+    <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/TnS53T3gcPg" 
+        title="YouTube video player" 
+        frameborder="100" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+    <P>Here is a <strong>VIDEO</strong> of an <em>oil change</em> being performed.</P>
+</body>
+
+
+</html>
